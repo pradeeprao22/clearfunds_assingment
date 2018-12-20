@@ -1,0 +1,122 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+  background: #7c3d52;
+}
+
+#main {
+	padding-top: 250px !important;
+}
+
+.navbar-brand{
+  font-family: arial;
+  font-style: oblique;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#link_base_url-error.error{
+  margin-top: 55px;
+  position: fixed;
+}
+
+.input-group-btn:not(:first-child) > .btn:focus, .input-group-btn:not(:first-child) > .btn:active, .input-group-btn:not(:first-child) > .btn:hover, .input-group-btn:not(:first-child) > .btn-group:focus, .input-group-btn:not(:first-child) > .btn-group:active, .input-group-btn:not(:first-child) > .btn-group:hover{
+  cursor: pointer !important;
+}
+
+#short-link-wrapper{
+  p.card-text{
+    margin-top: 15px;
+    color: gray;
+  }
+  a.btn.btn-primary{
+    margin-bottom: 10px;
+  }
+}
+
+table.top-links-table{
+  background: #fff;
+  margin-top: -100px
+}
+
+a.top-link{
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.navbar.navbar-toggleable-md.navbar-inverse.fixed-top{
+  background: #7c3d55;
+}
+
+input[type=submit] {
+	cursor: pointer;
+}
+
+.btn-go{
+  font-size: 14px !important;
+}
+
+input#link_base_url{
+  font-size: 18px;
+  font-weight: 100;
+}
+
+a:hover{
+  cursor: pointer !important;
+}
+
+.actions input[type=submit] {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.simple_form.uploader input[type=file] {
+	border: solid 1px #eee;
+	&:hover{
+		cursor: pointer;
+	}
+}
+
+/* Flash Alerts Styling*/
+.alert{
+	margin-top: 80px !important;
+}
+
+.alert-error {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+  text-align: left;
+}
+
+.alert-alert {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+  text-align: left;
+}
+
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+  text-align: left;
+}
+
+.alert-notice {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+  text-align: left;
+}
+
+#error_explanation{
+  color: rgb(255, 87, 87) !important;
+
+}
+
+.error, .help-block{
+  color: rgb(255, 87, 87) !important;
+}
+
